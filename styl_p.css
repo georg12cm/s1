@@ -1,0 +1,74 @@
+*{
+    font-family: 'Comic Sans MS';
+}
+#zewn{
+    background: rgba(234, 237, 118,0.8);
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 5%;
+    text-align: center;
+    padding: 75px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+#cont{
+    background: rgba(234, 237, 118,0.8);
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 75px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px black;
+    display: flex;
+}
+#left{
+    width: 50%;
+    height: 115%;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    background: #8e9ead;
+}
+#right{
+    width: 50%;
+    height: 115%;
+}
+body{
+    background-image: url(sasiedzi.jpg);
+    background-repeat: no-repeat;
+}
+#bt{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background: #8e9ead;
+}
+table{
+    margin: 0 auto;
+}
+#wynik{
+    width: 215px;
+    height: 50px;
+    font-size: 28px;
+    background: #b8cbdd;
+}
+#footer{
+    width: 80%;
+    height: 4%;
+    margin: 0 auto;
+    background: rgba(234, 237, 118,0.8);
+    text-align: right;
+    color: white;
+    text-shadow: 3px 3px black;
+    padding: 5px;
+    box-sizing: border-box;
+    padding-right: 15px;
+}

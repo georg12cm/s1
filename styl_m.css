@@ -1,0 +1,36 @@
+*{
+    font-family: 'Comic Sans MS';
+}
+#zewn{
+    background: rgba(107, 175, 129,0.8);
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 5%;
+    text-align: center;
+    padding: 170px;
+    font-size: 35px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+body{
+    background-image: url(panpawel.jpg);
+}
+button{
+    width: 350px;
+    height: 80px;
+    font-size: 40px;
+}
+#footer{
+    width: 80%;
+    height: 4%;
+    margin: 0 auto;
+    background: rgba(107, 175, 129,0.8);
+    text-align: right;
+    color: white;
+    text-shadow: 3px 3px black;
+    padding: 5px;
+    box-sizing: border-box;
+    padding-right: 15px;
+}

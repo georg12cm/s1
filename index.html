@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styl_i.css"/>
+    <title>Test</title>
+</head>
+<body>
+    <div id="zewn">
+        <h1>Podaj najważniejszą dla <span style="color:red">POLAKA</span> datę bitwy, aby przejść dalej!</h1><br><br><br><br>
+        <input id="data" placeholder="Podaj datę" type="number" min="0" max="2019"/><br/>
+        <button id="klik" onclick="spr()">Sprawdź!</button>
+    </div>
+    <div id="footer">
+        Copyright &copy; GB 2019
+    </div>
+    
+    <script>
+        function spr(){
+            var d = data.value;
+            if(d==1410) location.href="main.html";
+            else alert("Źle!!");
+        }
+    </script>
+</body>
+</html>

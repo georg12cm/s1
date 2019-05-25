@@ -1,0 +1,71 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styl_p.css"/>
+    <title>Niespodzianka</title>
+</head>
+<body>
+    <div id="zewn">
+        <h1>Jako, że udało Ci się tutaj dostać to możesz poużywać tego kozackiego kalukatora.</h1>
+    </div>
+    
+    <div id="cont">
+        <div id="left">
+            <br><p>Podziel się swoją opinią o tej stronie!</p>
+            <button onclick="przejdz()">OPINIE</button>
+        </div>
+        
+        <div id="right">
+            <input id="wynik"/><br/>
+            <table>
+            <tr>
+            <td colspan=2><input style="width: 106" type="button" id="bt" value="C" onclick="usun()"/></td>
+            <td><input type="button" id="bt" value="x" onclick="wstaw('*')"/></td>
+            <td><input type="button" id="bt" value="/" onclick="wstaw('/')"/></td>
+            </tr>
+            <tr>
+            <td><input type="button" id="bt" value="7" onclick="wstaw(7)"/></td>
+            <td><input type="button" id="bt" value="8" onclick="wstaw(8)"/></td>
+            <td><input type="button" id="bt" value="9" onclick="wstaw(9)"/></td>
+            <td><input type="button" id="bt" value="+" onclick="wstaw('+')"/></td>
+            </tr>
+            <tr>
+            <td><input type="button" id="bt" value="4" onclick="wstaw(4)"/></td>
+            <td><input type="button" id="bt" value="5" onclick="wstaw(5)"/></td>
+            <td><input type="button" id="bt" value="6" onclick="wstaw(6)"/></td>
+            <td><input type="button" id="bt" value="-" onclick="wstaw('-')"/></td>
+            </tr>
+            <tr>
+            <td><input type="button" id="bt" value="1" onclick="wstaw(1)"/></td>
+            <td><input type="button" id="bt" value="2" onclick="wstaw(2)"/></td>
+            <td><input type="button" id="bt" value="3" onclick="wstaw(3)"/></td>
+            <td rowspan=2><input style="height: 106" type="button" id="bt" value="=" onclick="licz()"/></td>
+            </tr>
+            <tr>
+            <td colspan=2><input style="width: 106" type="button" id="bt" value="0" onclick="wstaw(0)"/></td>
+            <td><input type="button" id="bt" value="." onclick="wstaw('.')"/></td>
+            </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div id="footer">
+        Copyright &copy; GB 2019
+    </div>
+        
+    <script>
+        function wstaw(x){
+            document.getElementById("wynik").value = document.getElementById("wynik").value+x;
+        }
+        function licz(){
+            document.getElementById("wynik").value = eval(document.getElementById("wynik").value);
+        }
+        function usun(){
+            document.getElementById("wynik").value = "";
+        }
+        function przejdz(){
+            location.href="http://localhost/s1/opinie.php";
+        }
+    </script>
+</body>
+</html>
